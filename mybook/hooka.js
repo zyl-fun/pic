@@ -22,8 +22,8 @@ ah.proxy({
         console.log(response.response)
         handler.next(response)
     	}
-    }
-})
+
+	})
 
 var i = 0;
 setInterval(function(){
